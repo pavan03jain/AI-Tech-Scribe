@@ -1,27 +1,93 @@
-# 🎙️ AI Tech-Scribe Intelligence (v5.0)
+# 🎙️ AI Tech-Scribe Intelligence (2026 Edition)
+> **Privacy-First Executive Briefings from Raw Audio**
 
-**Turn messy meeting audio into executive-grade business intelligence in seconds.**
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Whisper-Local](https://img.shields.io/badge/Transcription-Local_Whisper-green.svg)]()
+[![AI-Brain](https://img.shields.io/badge/Intelligence-Groq_Llama_3.3-orange.svg)]()
+[![License-MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-## 🚀 The Value Proposition
-Manual transcription is slow and summaries are often biased. **AI Tech-Scribe** uses a hybrid architecture to provide fast, private, and high-intelligence reports.
-- **Privacy First:** Transcription happens locally on your hardware.
-- **Executive Grade:** Powered by Gemini 2.0 for human-level summaries.
-- **Action Oriented:** Automatically extracts tasks and deadlines.
+---
+
+## ⚡ The Problem
+In 2026, every meeting is recorded, but nobody has time to read 50-page transcripts. General AI tools (Zoom/Otter) often compromise **Data Privacy** by training their models on your sensitive conversations.
+
+## 🚀 Our Solution: Hybrid Intelligence
+**AI Tech-Scribe** is a "Privacy-First" transcription and analysis engine. 
+- **100% Local Ear:** Audio is processed on your hardware using `Faster-Whisper`. Your voice never leaves your machine.
+- **Deep Cognitive Brain:** Only the text is sent to the `Groq Cloud` for a high-speed, 0.2s analysis by Llama 3.3.
+- **Executive Output:** Generates a branded, Navy Blue PDF with "Smart Summaries" and "Verb-Led Action Items."
+
+---
+
+## ✨ Key Features
+* **🔒 Data Sovereignty:** Local-first transcription ensures HIPAA/GDPR compliance.
+* **🧠 Executive Briefing:** Turns a 1-hour meeting into a 3-sentence high-level briefing.
+* **✅ Action Extraction:** Automatically identifies 5 critical, actionable tasks.
+* **📄 Corporate PDF:** Professional automated reporting with timestamps and branding.
+* **⚡ Groq-Speed:** Intelligence layer responds in milliseconds, not minutes.
+
+---
 
 ## 🛠️ Tech Stack
-- **Transcription:** OpenAI Whisper (via Faster-Whisper)
-- **Intelligence:** Google Gemini 1.5/2.0 Flash
-- **Output:** FPDF (Automated PDF Reporting)
-- **Language:** Python 3.11+
+| Component | Technology |
+| :--- | :--- |
+| **Language** | Python 3.11 |
+| **Transcription** | Faster-Whisper (Local Small Model) |
+| **LLM Engine** | Groq API (Llama-3.3-70b-versatile) |
+| **Document Export** | FPDF (Custom Branded Templates) |
+| **Environment** | OS-level Environment Variable Protection |
 
-## 📄 Sample Output
-The engine generates a `Professional_Report.pdf` containing:
-1. **Executive Summary:** A 3-sentence high-level brief.
-2. **Action Items:** 5 critical tasks identified from the conversation.
-3. **Verified Transcript:** Cleaned, timestamped verbatim text.
+---
 
-## ⚙️ Quick Start
-1. Clone the repo: `git clone https://github.com/pavan03jain/AI-Tech-Scribe.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Add your Gemini API Key to `engine.py`.
-4. Run: `python engine.py`
+## 🏁 Getting Started
+
+### 1. Prerequisites
+Ensure you have Python installed and your API key ready.
+```bash
+pip install faster-whisper groq fpdf# 🎙️ AI Tech-Scribe Intelligence (2026 Edition)
+> **Privacy-First Executive Briefings from Raw Audio**
+
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Whisper-Local](https://img.shields.io/badge/Transcription-Local_Whisper-green.svg)]()
+[![AI-Brain](https://img.shields.io/badge/Intelligence-Groq_Llama_3.3-orange.svg)]()
+[![License-MIT](https://img.shields.io/badge/license-MIT-blue.svg)]()
+
+---
+
+## ⚡ The Problem
+In 2026, every meeting is recorded, but nobody has time to read 50-page transcripts. General AI tools (Zoom/Otter) often compromise **Data Privacy** by training their models on your sensitive conversations.
+
+## 🚀 Our Solution: Hybrid Intelligence
+**AI Tech-Scribe** is a "Privacy-First" transcription and analysis engine. 
+- **100% Local Ear:** Audio is processed on your hardware using `Faster-Whisper`. Your voice never leaves your machine.
+- **Deep Cognitive Brain:** Only the text is sent to the `Groq Cloud` for a high-speed, 0.2s analysis by Llama 3.3.
+- **Executive Output:** Generates a branded, Navy Blue PDF with "Smart Summaries" and "Verb-Led Action Items."
+
+---
+
+## ✨ Key Features
+* **🔒 Data Sovereignty:** Local-first transcription ensures HIPAA/GDPR compliance.
+* **🧠 Executive Briefing:** Turns a 1-hour meeting into a 3-sentence high-level briefing.
+* **✅ Action Extraction:** Automatically identifies 5 critical, actionable tasks.
+* **📄 Corporate PDF:** Professional automated reporting with timestamps and branding.
+* **⚡ Groq-Speed:** Intelligence layer responds in milliseconds, not minutes.
+
+---
+
+## 🛠️ Tech Stack
+| Component | Technology |
+| :--- | :--- |
+| **Language** | Python 3.11 |
+| **Transcription** | Faster-Whisper (Local Small Model) |
+| **LLM Engine** | Groq API (Llama-3.3-70b-versatile) |
+| **Document Export** | FPDF (Custom Branded Templates) |
+| **Environment** | OS-level Environment Variable Protection |
+
+---
+
+## 🏁 Getting Started
+
+### 1. Prerequisites
+Ensure you have Python installed and your API key ready.
+```bash
+pip install faster-whisper groq fpdf
