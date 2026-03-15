@@ -1,0 +1,4 @@
+ffmpeg
+libavdevice-dev
+libavfilter-dev
+pkg-config
